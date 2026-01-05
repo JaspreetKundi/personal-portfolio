@@ -58,6 +58,24 @@ const projects: Project[] = [
     ],
     techStack: ['Java', 'JFrame', 'JPanel', 'Threading', 'AABB Collision Detection', 'OOP'],
   },
+  {
+    id: 4,
+    title: 'Dijkstras Visualizer',
+    description: 'Navigator X is an interactive, modern visualizer for Dijkstras Algorithm PathFinder Pro. Built to demonstrate advanced Data Structures & Algorithms concepts with a premium, modern user interface.',
+    tags: ['React', 'Vite', 'Typescript', 'Tailwind CSS', 'shadcn','Radix'],
+    image: '/project-preview.png',
+    githubUrl: 'https://github.com/JaspreetKundi/dijkstra-s-navigator-x?tab=readme-ov-file',
+    liveUrl: 'https://dijkstra-s-navigator-x.vercel.app',
+    fullDescription: 'A high-performance 2D game engine engineered from scratch using Core Java, Swing, and AWT. Features a custom multithreaded render loop, predictive AABB collision detection, and OOP-based entity management.',
+    features: [
+      'Interactive Graph: Visual representation of nodes and edges with customizable routes.',
+      'Real-time Visualization: Watch Dijkstras algorithm explore nodes, update distances, and find the shortest path step-by-step.',
+      'Data Structures in Action: Visualizes the Min-Heap (Priority Queue) operations and adjacency list traversals.',
+      'Modern UI: Built with a sleek, dark-themed glassmorphism aesthetic using Tailwind CSS and Framer Motion.',
+      'Responsive Design: precise control over animation speed and graph customization.',
+    ],
+    techStack: ['React', 'Vite', 'Typescript', 'Tailwind CSS', 'shadcn','Radix'],
+  },
 ];
 
 const ProjectsSection = () => {
